@@ -1,0 +1,118 @@
+@font-face {
+  font-family: unna;
+  src: url("./assets/fonts/UNNAMonumentGrotesk-Heavy.woff");
+}
+body {
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+
+#svg1 {
+  fill: red !important;
+}
+#timeText {
+  background-color: none;
+  fill: none;
+  display: inline-block;
+}
+#svg1 {
+  position: absolute;
+}
+#time {
+  font-family: unna;
+  font-size: 1.5rem;
+  text-align: center;
+  left: 5vw;
+  top: 16vh;
+  position: fixed;
+  transform-origin: center center;
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  /* box-shadow: 1px 1px 40px 10px blue; */
+  /* font-style: italic; */
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signup {
+  font-family: unna;
+  font-size: 1.5rem;
+  text-align: center;
+  right: 5vw;
+  top: 14vh;
+  position: fixed;
+  transform-origin: center center;
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  /* box-shadow: 1px 1px 40px 10px blue; */
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#innersignup:visited,
+#timeText:visited {
+  color: black;
+}
+
+.logobox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  width: 150px;
+  left: 0vw;
+  top: 16vh;
+  position: relative;
+}
+
+.sportimage {
+  width: 16%;
+  position: relative;
+}
+.sportimage:hover {
+  cursor: pointer;
+}
+
+#image1 {
+  margin: 4px;
+}
+#image2 {
+  margin: 4px;
+}
+#image3 {
+  margin: 4px;
+}
+
+#image4 {
+  margin: 4px;
+}
+#image5 {
+  margin: 4px;
+}
+.imagebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.word {
+  visibility: hidden;
+  font-family: unna;
+  font-size: 2rem;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.wordbox {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
