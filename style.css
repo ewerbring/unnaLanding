@@ -58,6 +58,11 @@ body {
   color: black;
 }
 
+#innersignup,
+#timeText {
+  text-decoration: none;
+}
+
 .logobox {
   width: 100vw;
   display: flex;
@@ -70,10 +75,12 @@ body {
   top: 16vh;
   position: relative;
 }
-
-.sportimage {
+.sportlink {
   width: 16%;
+}
+.sportimage {
   position: relative;
+  width: 100%;
 }
 .sportimage:hover {
   cursor: pointer;
