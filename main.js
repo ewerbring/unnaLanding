@@ -4,8 +4,20 @@ function checkTime(i) {
   }
   return i;
 }
+let count = 0;
+var logo = document.getElementById("logo");
+var time = document.getElementById("time");
 
 function startTime() {
+  setInterval(function () {
+    count += 1;
+    console.log(count);
+    time.style =
+      "transform: rotate( " +
+      count * 3 +
+      "deg); transform-origin: center center ;;";
+  }, 1000);
+
   var today = new Date();
   var h = today.getHours();
   var m = today.getMinutes();
@@ -15,11 +27,9 @@ function startTime() {
   s = checkTime(s);
   // document.getElementById("time").innerHTML =
   // `<p id="timeText"> release in<br>` + h + ":" + m + ":" + s + `</p>`;
-  t = setTimeout(function () {
-    startTime();
-  }, 500);
-  var time = document.getElementById("time");
-  var logo = document.getElementById("logo");
+  // t = setTimeout(function () {
+  //   startTime();
+  // }, 500);
 
   sec = s;
 
@@ -33,10 +43,6 @@ function startTime() {
     timeText.style = "transform: rotate( 0deg)";
     innersignup.style = "transform: rotate( 0deg)";
   }
-  time.style =
-    "transform: rotate( " +
-    sec * 3 +
-    "deg); transform-origin: center center ;;";
 
   onmousemove = function (e) {
     let mouseX = e.clientX;
@@ -47,10 +53,6 @@ function startTime() {
       (mouseX + mouseY) / 3 +
       "deg); transform-origin: center center ;;";
   };
-  signup.style =
-    "transform: rotate(" +
-    (sec + 250) * 6 +
-    "deg); transform-origin: center center ;;";
 }
 
 startTime();

@@ -3,7 +3,7 @@
   src: url("./assets/fonts/UNNAMonumentGrotesk-Heavy.woff");
 }
 body {
-  /* background-color: yellow; */
+  background-color: #e7ff57;
   overflow: hidden;
 }
 
@@ -14,20 +14,25 @@ body {
   background-color: none;
   fill: none;
   display: inline-block;
+  width: 300px;
+  /* left: 200px; */
+  position: relative;
+  color: pink;
 }
 #svg1 {
   position: absolute;
+  width: 50vw;
 }
 #time {
   font-family: unna;
-  font-size: 1.5rem;
+  font-size: 2.5em;
   text-align: center;
-  left: 5vw;
+  left: -1vw;
   top: 16vh;
   position: fixed;
   transform-origin: center center;
-  border: 1px solid white;
-  width: 150px;
+  /* border: 1px solid white; */
+  /* width: 150px; */
   height: 50px;
   /* box-shadow: 1px 1px 40px 10px blue; */
   /* font-style: italic; */
@@ -36,31 +41,75 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.catch1 {
+  font-family: unna;
+  width: 40vw;
+  font-size: 3em;
+  position: absolute;
+  bottom: -0px;
+  line-height: 1.1em;
+  height: auto;
+  left: 20px;
+}
 #signup {
   font-family: unna;
-  font-size: 1.5rem;
+  font-size: 3.5em;
   text-align: center;
-  right: 5vw;
-  top: 14vh;
-  position: fixed;
-  transform-origin: center center;
-  border: 1px solid white;
-  width: 200px;
-  height: 50px;
-  /* box-shadow: 1px 1px 40px 10px blue; */
-  /* border-radius: 50%; */
+  right: 0vw;
+  top: 0vh;
+  position: absolute;
+  /* transform-origin: center center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 20px;
+  padding: 0px;
+}
+
+.conecontainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40vw;
+  position: absolute;
+  right: -10px;
+  bottom: 0px;
 }
-#innersignup:visited,
-#timeText:visited {
+
+.cone {
+  width: 100%;
+}
+
+.signupcone {
+  position: absolute;
+  font-family: unna;
+  font-size: 3em;
+
+  color: pink;
+  text-align: center;
+}
+
+#innersignup:visited {
   color: black;
+}
+path {
+  fill: inherit;
+  stroke: inherit;
+}
+#screen {
+  fill: dodgerblue;
+}
+rect {
+  fill: #d5d5d5;
 }
 
 #innersignup,
 #timeText {
   text-decoration: none;
+}
+#innersignup {
+  color: black;
 }
 
 .logobox {
@@ -68,12 +117,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  top: 0px;
+  position: absolute;
 }
 #logo {
-  width: 150px;
+  width: 180px;
   left: 0vw;
   top: 16vh;
-  position: relative;
+  /* position: relative; */
 }
 .sportlink {
   width: 16%;
@@ -111,8 +163,8 @@ body {
 .word {
   visibility: hidden;
   font-family: unna;
-  font-size: 2rem;
-  margin: 2rem;
+  font-size: 2em;
+  margin: 2em;
   margin-bottom: 0;
 }
 
