@@ -5,6 +5,11 @@
 body {
   background-color: #e7ff57;
   overflow: hidden;
+  
+}
+
+* {
+  line-height: 1.1em;
 }
 
 #svg1 {
@@ -17,11 +22,24 @@ body {
   width: 300px;
   /* left: 200px; */
   position: relative;
-  color: pink;
+  color: #fe8450;
+}
+#timeText2 {
+  background-color: none;
+  fill: none;
+  display: inline-block;
+  width: 300px;
+  /* left: 200px; */
+  position: relative;
+  color: #fe8450;
 }
 #svg1 {
   position: absolute;
   width: 50vw;
+}
+#svg12 {
+  position: absolute;
+  width: 80vw;
 }
 #time {
   font-family: unna;
@@ -29,6 +47,24 @@ body {
   text-align: center;
   left: -1vw;
   top: 16vh;
+  position: fixed;
+  transform-origin: center center;
+  /* border: 1px solid white; */
+  /* width: 150px; */
+  height: 50px;
+  /* box-shadow: 1px 1px 40px 10px blue; */
+  /* font-style: italic; */
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#time2 {
+  font-family: unna;
+  font-size: 2.5em;
+  text-align: center;
+  left: -1vw;
+  top: 14vh;
   position: fixed;
   transform-origin: center center;
   /* border: 1px solid white; */
@@ -52,6 +88,17 @@ body {
   height: auto;
   left: 20px;
 }
+.catch2 {
+  font-family: unna;
+  width: 100vw;
+  font-size: 2em;
+  position: absolute;
+  bottom: -0px;
+  line-height: 1.1em;
+  height: auto;
+  left: 20px;
+  z-index: 100;
+}
 #signup {
   font-family: unna;
   font-size: 3.5em;
@@ -66,6 +113,20 @@ body {
   margin: 20px;
   padding: 0px;
 }
+#signup2 {
+  font-family: unna;
+  font-size: 3.5em;
+  text-align: center;
+  right: 0vw;
+  top: 0vh;
+  position: absolute;
+  /* transform-origin: center center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin: 20px; */
+  padding: 0px;
+}
 
 .conecontainer {
   display: flex;
@@ -75,6 +136,15 @@ body {
   position: absolute;
   right: -10px;
   bottom: 0px;
+}
+.conecontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: absolute;
+  right: -10px;
+  bottom: 50px;
 }
 
 .cone {
@@ -86,7 +156,7 @@ body {
   font-family: unna;
   font-size: 3em;
 
-  color: pink;
+  color: #fe8450;
   text-align: center;
 }
 
@@ -104,12 +174,31 @@ rect {
   fill: #d5d5d5;
 }
 
-#innersignup,
-#timeText {
+#innersignup, #innersignup2,
+#timeText, #timeText2 {
   text-decoration: none;
 }
 #innersignup {
   color: black;
+  line-height: 1.1em;
+  text
+}
+#innersignup2 {
+  color: black;
+  line-height: 1.1em;
+  font-size: .8em;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width:768px) {
+  .mobile {
+
+    display: none;
+  }
 }
 
 .logobox {
@@ -122,6 +211,12 @@ rect {
   position: absolute;
 }
 #logo {
+  width: 180px;
+  left: 0vw;
+  top: 16vh;
+  /* position: relative; */
+}
+#logo2 {
   width: 180px;
   left: 0vw;
   top: 16vh;
@@ -152,6 +247,22 @@ rect {
   margin: 4px;
 }
 #image5 {
+  margin: 4px;
+}
+#image12 {
+  margin: 4px;
+}
+#image22 {
+  margin: 4px;
+}
+#image32 {
+  margin: 4px;
+}
+
+#image42 {
+  margin: 4px;
+}
+#image52 {
   margin: 4px;
 }
 .imagebox {
