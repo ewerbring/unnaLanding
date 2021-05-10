@@ -7,12 +7,17 @@ function checkTime(i) {
 let count = 0;
 var logo = document.getElementById("logo");
 var time = document.getElementById("time");
+var time2 = document.getElementById("time2");
 
 function startTime() {
   setInterval(function () {
     count += 1;
     console.log(count);
     time.style =
+      "transform: rotate( " +
+      count * 3 +
+      "deg); transform-origin: center center ;;";
+    time2.style =
       "transform: rotate( " +
       count * 3 +
       "deg); transform-origin: center center ;;";

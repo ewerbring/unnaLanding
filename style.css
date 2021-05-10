@@ -39,7 +39,7 @@ body {
 }
 #svg12 {
   position: absolute;
-  width: 80vw;
+  width: 90vw;
 }
 #time {
   font-family: unna;
@@ -63,8 +63,8 @@ body {
   font-family: unna;
   font-size: 2.5em;
   text-align: center;
-  left: -1vw;
-  top: 14vh;
+  left: -4vw;
+  top:10vh;
   position: fixed;
   transform-origin: center center;
   /* border: 1px solid white; */
@@ -155,7 +155,7 @@ body {
   position: absolute;
   font-family: unna;
   font-size: 3em;
-
+text-decoration:none;
   color: #fe8450;
   text-align: center;
 }
@@ -201,6 +201,23 @@ rect {
   }
 }
 
+@keyframes mymove {
+  10% {transform: rotate(36deg);}
+  20% {transform: rotate(72deg);}
+  30% {transform: rotate(108deg);}
+  40% {transform: rotate(144deg);}
+  50% {transform: rotate(180deg);}
+  60% {transform: rotate(216deg);}
+  70% {transform: rotate(252deg);}
+  80% {transform: rotate(288deg);}
+  90% {transform: rotate(324deg);}
+  100% {transform: rotate(1080deg);}
+
+}
+
+
+
+
 .logobox {
   width: 100vw;
   display: flex;
@@ -209,6 +226,19 @@ rect {
   height: 100vh;
   top: 0px;
   position: absolute;
+  z-index: 200;
+}
+.logobox2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  top: 0px;
+  position: absolute;
+  z-index: 200;
+  pointer-events:none
+
 }
 #logo {
   width: 180px;
@@ -220,6 +250,10 @@ rect {
   width: 180px;
   left: 0vw;
   top: 16vh;
+  animation: mymove 10s infinite ease;
+  animation-iteration-count:infinite;
+  pointer-events:none
+
   /* position: relative; */
 }
 .sportlink {
