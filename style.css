@@ -61,7 +61,7 @@ body {
 }
 #time2 {
   font-family: unna;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
   left: -4vw;
   top:10vh;
@@ -91,10 +91,10 @@ body {
 .catch2 {
   font-family: unna;
   width: 100vw;
-  font-size: 1.5em;
+  font-size: 1.8em;
   position: absolute;
   bottom: -0px;
-  line-height: 1em;
+  line-height: 1.1em;
   height: auto;
   left: 20px;
   z-index: 100;
@@ -115,7 +115,7 @@ body {
 }
 #signup2 {
   font-family: unna;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
   right: 0vw;
   top: 0vh;
@@ -162,7 +162,7 @@ text-decoration:none;
 .signupcone2 {
   position: absolute;
   font-family: unna;
-  font-size: 1.5em;
+  font-size: 1.8em;
 text-decoration:none;
   color: #fe8450;
   text-align: center;
@@ -255,9 +255,9 @@ rect {
   /* position: relative; */
 }
 #logo2 {
-  width: 180px;
+  width: 120px;
   left: 0vw;
-  top: 16vh;
+  top: 13vh;
   animation: mymove 10s infinite ease;
   animation-iteration-count:infinite;
   pointer-events:none
