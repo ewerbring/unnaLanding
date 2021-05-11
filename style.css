@@ -63,7 +63,7 @@ body {
   font-family: unna;
   font-size: 1.8em;
   text-align: center;
-  left: -4vw;
+  left: -10vw;
   top:10vh;
   position: fixed;
   transform-origin: center center;
@@ -210,16 +210,26 @@ rect {
 }
 
 @keyframes mymove {
+  7% {transform: rotate(-4deg);}
   10% {transform: rotate(36deg);}
+  17% {transform: rotate(32deg);}
   20% {transform: rotate(72deg);}
+  27% {transform: rotate(68deg);}
   30% {transform: rotate(108deg);}
+  37% {transform: rotate(104deg);}
   40% {transform: rotate(144deg);}
+  47% {transform: rotate(140deg);}
   50% {transform: rotate(180deg);}
+  57% {transform: rotate(174deg);}
   60% {transform: rotate(216deg);}
+  67% {transform: rotate(212deg);}
   70% {transform: rotate(252deg);}
+  77% {transform: rotate(248deg);}
   80% {transform: rotate(288deg);}
+  87% {transform: rotate(284deg);}
   90% {transform: rotate(324deg);}
-  100% {transform: rotate(1080deg);}
+  97% {transform: rotate(300deg);}
+  100% {transform: rotate(720deg);}
 
 }
 
@@ -241,7 +251,7 @@ rect {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   top: 0px;
   position: absolute;
   z-index: 200;
@@ -256,8 +266,8 @@ rect {
 }
 #logo2 {
   width: 120px;
-  left: 0vw;
-  top: 13vh;
+  left: 16vw;
+  top: 20px;
   animation: mymove 10s infinite ease;
   animation-iteration-count:infinite;
   pointer-events:none

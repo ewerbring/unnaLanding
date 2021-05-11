@@ -17,10 +17,10 @@ function startTime() {
       "transform: rotate( " +
       count * 3 +
       "deg); transform-origin: center center ;;";
-    time2.style =
-      "transform: rotate( " +
-      count * 3 +
-      "deg); transform-origin: center center ;;";
+    // time2.style =
+    //   "transform: rotate( " +
+    //   count * 3 +
+    //   "deg); transform-origin: center center ;;";
   }, 1000);
 
   var today = new Date();
