@@ -8,10 +8,10 @@ body {
   
 }
 
-* {
+.desktop{
   line-height: 1.1em;
-}
 
+}
 #svg1 {
   fill: red !important;
 }
@@ -92,7 +92,6 @@ body {
   width: 95vw;
   position: absolute;
   bottom: -0px;
-  line-height: 1.1em;
   height: auto;
   left: 20px;
   z-index: 100;
@@ -111,6 +110,7 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
   margin: 20px;
+  /* margin-top:20px; */
   padding: 0px;
 }
 #signup2 {
@@ -192,7 +192,6 @@ rect {
 }
 #innersignup2 {
   color: black;
-  line-height: 1.1em;
   /* font-size: .8em; */
 }
 
@@ -210,6 +209,7 @@ rect {
 
 .mobile{
   font-size: 1.6em;
+  line-height: 1em;
 
 }
 
