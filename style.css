@@ -96,7 +96,8 @@ body {
   height: auto;
   left: 20px;
   z-index: 100;
-  margin:0px;
+  /* padding:3px; */
+  left:5px;
 }
 #signup {
   font-family: unna;
@@ -114,7 +115,7 @@ body {
 }
 #signup2 {
   font-family: unna;
-=  text-align: center;
+ text-align: center;
   right: 0vw;
   top: 0vh;
   position: absolute;
@@ -122,7 +123,7 @@ body {
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
-  /* margin: 20px; */
+  margin: 3px;
   padding: 0px;
   padding-right:3px;
 }
@@ -339,5 +340,7 @@ rect {
   bottom: 0px;
   display: flex;
   width: 100vw;
+  margin:0px;
+  padding:0px;
   justify-content: space-between;
 }
