@@ -90,7 +90,7 @@ body {
 }
 .catch2 {
   font-family: unna;
-  width: 100vw;
+  width: 95vw;
   font-size: 1.8em;
   position: absolute;
   bottom: -0px;
@@ -98,6 +98,7 @@ body {
   height: auto;
   left: 20px;
   z-index: 100;
+  margin:10px;
 }
 #signup {
   font-family: unna;
@@ -126,6 +127,7 @@ body {
   /* align-items: center; */
   /* margin: 20px; */
   padding: 0px;
+  padding-right:3px;
 }
 
 .conecontainer {
